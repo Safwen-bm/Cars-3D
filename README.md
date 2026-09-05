@@ -2,7 +2,7 @@
 
 An interactive 3D car showroom built with React, Vite, Tailwind CSS v4, and Three.js (via React Three Fiber + drei). Browse a car in a real-time 3D viewer, change its paint color, rotate/zoom it, and interact with a mock rental/booking UI around it.
 
-**[Live Demo](#)** — *(link goes here once deployed)*
+**[Live Demo](https://safwen-bm.github.io/Cars-3D/)**
 
 ## Features
 
