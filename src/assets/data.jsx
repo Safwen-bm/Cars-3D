@@ -32,44 +32,15 @@ const carTelemetry = [
   { label: "BATTERY", value: "OPTIMAL", trend: "100%" },
 ];
 
-const songs = [
-  {
-    name: "FootPrint Arts",
-    audio: "/music/song2.mp3",
-    image: "/images/user-1.png",
-    artist: "Emily Johnson",
-  },
-  {
-    name: "Engine Beats",
-    audio: "/music/song2.mp3",
-    image: "/images/user-4.png",
-    artist: "DJ Torque",
-  },
-  {
-    name: "DJ Beatz - Chill Mix",
-    audio: "/music/song2.mp3",
-    image: "/images/user-3.png",
-    artist: null,
-  },
+const BASE = import.meta.env.BASE_URL;
 
-  {
-    name: "Get Up - Amapiano Mix",
-    audio: "/music/song2.mp3",
-    image: "/images/user-2.png",
-    artist: "The Vibrants",
-  },
-  {
-    name: "AfroBeat - Niger Vibes",
-    audio: "/music/song3.mp3",
-    image: "/images/user-3.png",
-    artist: "DJ Wakanda",
-  },
-  {
-    name: "Amapiano Vibe",
-    audio: "/music/song1.mp3",
-    image: "/images/user-4.png",
-    artist: "South African DJ",
-  },
+const songs = [
+  { name: "FootPrint Arts", audio: `${BASE}music/song2.mp3`, image: `${BASE}images/user-1.png`, artist: "Emily Johnson" },
+  { name: "Engine Beats", audio: `${BASE}music/song2.mp3`, image: `${BASE}images/user-4.png`, artist: "DJ Torque" },
+  { name: "DJ Beatz - Chill Mix", audio: `${BASE}music/song2.mp3`, image: `${BASE}images/user-3.png`, artist: null },
+  { name: "Get Up - Amapiano Mix", audio: `${BASE}music/song2.mp3`, image: `${BASE}images/user-2.png`, artist: "The Vibrants" },
+  { name: "AfroBeat - Niger Vibes", audio: `${BASE}music/song3.mp3`, image: `${BASE}images/user-3.png`, artist: "DJ Wakanda" },
+  { name: "Amapiano Vibe", audio: `${BASE}music/song1.mp3`, image: `${BASE}images/user-4.png`, artist: "South African DJ" },
 ];
 
 // data.jsx

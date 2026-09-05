@@ -14,7 +14,7 @@ import { Color } from "three";
 import { goodColors } from "../../assets/data";
 
 export function Polestar_Car(props) {
-  const { nodes, materials } = useGLTF('/2020_polestar.glb');
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}2020_polestar.glb`);
 
   // Dynamic Color Change Effect
 
@@ -245,4 +245,4 @@ export function Polestar_Car(props) {
   )
 }
 
-useGLTF.preload('/2020_polestar.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}2020_polestar.glb`);
